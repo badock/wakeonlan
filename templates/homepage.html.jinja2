@@ -54,9 +54,9 @@
                                 <strong class="text-gray-dark">{{ computer.label }} <span class="badge badge-{% if computer.status == "online" %}success{% else %}danger{% endif %}">{{ computer.status }}</span></strong>
                                 <a href="{{ url_for("perform_action", action="on", computer_id=computer.id) }}">turn-on</a>
                             </div>
-                            <span class="d-block">mac address: {{ computer.label }}</span>
+                            <span class="d-block">mac address: {{ computer.mac_address }}</span>
                             <span class="d-block">ip address: {{ computer.ip_address }}</span>
-                            <span class="d-block">broadcast address: {{ computer.mac_address }}</span>
+                            <span class="d-block">broadcast address: {{ computer.broadcast_address }}</span>
                         </div>
                     </div>
                 </div>
