@@ -1,0 +1,10 @@
+users:
+  - username: demo
+    password: password
+computers:
+  desktop:
+    id: demo
+    label: Desktop demo
+    mac_address: 11:22:33:44:55:66
+    broadcast_address: 192.168.1.255
+    ip_address: 192.168.1.2
